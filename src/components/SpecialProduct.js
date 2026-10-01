@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 const SpecialProduct = () => {
   return (
-    <div className="col-6 mb-3">
+    <div className="col-12 col-lg-6 mb-3">
       <div className="special-product-card">
-        <div className="d-flex justify-content-between">
+        <div className="d-flex flex-column flex-sm-row justify-content-between gap-15">
           <div>
             <img src="images/watch.jpg" className="img-fluid" alt="watch" />
           </div>
@@ -23,7 +23,7 @@ const SpecialProduct = () => {
             <p className="price">
               <span className="red-p">$100</span> &nbsp; <strike>$140</strike>
             </p>
-            <div className="discount-till d-flex align-items-center gap-10">
+            <div className="discount-till d-flex flex-wrap align-items-center gap-10">
               <p className="mb-0">
                 <b>5 days</b>
               </p>

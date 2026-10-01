@@ -11,7 +11,7 @@ const Store = () => {
       <div className="store-wrapper py-5 home-wrapper-2">
         <div className="container-xxl">
           <div className="row">
-            <div className="col-3">
+            <div className="col-12 col-lg-3">
               <div className="filter-card mb-3">
                 <h3 className="filter-title">Shop By Categories</h3>
                 <div>
@@ -53,7 +53,7 @@ const Store = () => {
                   </div>
                   <h5 className="sub-title">Price</h5>
                   <div>
-                    <div className="d-flex align-items-center gap10">
+                    <div className="d-flex align-items-center gap-10">
                       <div className="form-floating mb-3">
                         <input
                           type="email"
@@ -208,7 +208,7 @@ const Store = () => {
                 </div>
               </div>
             </div>
-            <div className="col-9">
+            <div className="col-12 col-lg-9">
               <div className="filter-sort-grid">
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="d-flex align-items-center gap-10">

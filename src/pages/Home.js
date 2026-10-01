@@ -11,7 +11,7 @@ const Home = () => {
       <section className="home-wrapper-1 py-5">
         <div className="container-xxl">
           <div className="row">
-            <div className="col-6">
+            <div className="col-12 col-lg-6 mb-3 mb-lg-0">
               <div className="main-banner position-relative ">
                 <img
                   src="images/main-banner-1.jpg"
@@ -29,7 +29,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-6">
+            <div className="col-12 col-lg-6">
               <div className="d-flex gap-10 flex-wrap justify-content-between align-items-center">
                 <div className="small-banner position-relative ">
                   <img
@@ -96,7 +96,7 @@ const Home = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
-              <div className="services d-flex aling-items-center justify-content-between">
+              <div className="services d-flex flex-wrap align-items-center justify-content-between">
                 <div className="d-flex align-items-center gap-15">
                   <img src="/images/service.png" alt="services" />
                   <div>
@@ -219,7 +219,7 @@ const Home = () => {
       <section className="famous-wrapper py-5 home-wrapper-2">
         <div className="container-xxl">
           <div className="row">
-            <div className="col-3">
+            <div className="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
               <div className="famous-card position-relative">
                 <div className="famous-image">
                   <img
@@ -235,7 +235,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-3">
+            <div className="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
               <div className="famous-card position-relative">
                 <img
                   src="images/famous-2.jpg"
@@ -249,7 +249,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-3">
+            <div className="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
               <div className="famous-card position-relative">
                 <img
                   src="images/famous-3.jpg"
@@ -263,7 +263,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-3">
+            <div className="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
               <div className="famous-card position-relative">
                 <img
                   src="images/famous-4.jpg"
@@ -315,28 +315,28 @@ const Home = () => {
             <div className="col-12">
               <div className="marquee-inner-wrapper card-wrapper">
                 <Marquee className="d-flex">
-                  <div className="mx-4 w-25">
+                  <div className="mx-4">
                     <img src="images/brand-01.png" alt="brand" />
                   </div>
-                  <div className="mx-4 w-25">
+                  <div className="mx-4">
                     <img src="images/brand-02.png" alt="brand" />
                   </div>
-                  <div className="mx-4 w-25">
+                  <div className="mx-4">
                     <img src="images/brand-03.png" alt="brand" />
                   </div>
-                  <div className="mx-4 w-25">
+                  <div className="mx-4">
                     <img src="images/brand-04.png" alt="brand" />
                   </div>
-                  <div className="mx-4 w-25">
+                  <div className="mx-4">
                     <img src="images/brand-05.png" alt="brand" />
                   </div>
-                  <div className="mx-4 w-25">
+                  <div className="mx-4">
                     <img src="images/brand-06.png" alt="brand" />
                   </div>
-                  <div className="mx-4 w-25">
+                  <div className="mx-4">
                     <img src="images/brand-07.png" alt="brand" />
                   </div>
-                  <div className="mx-4 w-25">
+                  <div className="mx-4">
                     <img src="images/brand-08.png" alt="brand" />
                   </div>
                 </Marquee>
